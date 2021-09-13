@@ -30,6 +30,10 @@ func unwrap(errorMessage string, err error) {
 	}
 }
 
+func init() {
+	fmt.Println("this is the start of an xml reader")
+}
+
 func main() {
 	var users Users
 
